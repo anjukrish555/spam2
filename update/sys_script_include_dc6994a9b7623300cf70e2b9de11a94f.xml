@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>sn_testapp2.spamscript1</api_name>
+        <client_callable>false</client_callable>
+        <description/>
+        <name>spamscript1</name>
+        <script><![CDATA[var spamscript1 = Class.create();
+spamscript1.prototype = {
+    initialize: function() {
+    },
+
+    type: 'spamscript1'
+};]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-07-09 15:06:10</sys_created_on>
+        <sys_id>dc6994a9b7623300cf70e2b9de11a94f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>spamscript1</sys_name>
+        <sys_package display_value="testapp2" source="sn_testapp2">c2b85c69b7623300cf70e2b9de11a929</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="testapp2">c2b85c69b7623300cf70e2b9de11a929</sys_scope>
+        <sys_update_name>sys_script_include_dc6994a9b7623300cf70e2b9de11a94f</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-07-09 15:06:10</sys_updated_on>
+    </sys_script_include>
+</record_update>
